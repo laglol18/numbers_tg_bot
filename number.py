@@ -3,7 +3,7 @@ import requests
 import json
 
 
-bot = Bot(token='6011056539:AAFIH7wQOM-jsc4CXZdiU9POiEBl93gpWfc')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot=bot)
 
 @dp.message_handler(commands=['start'])
